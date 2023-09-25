@@ -1,0 +1,10 @@
+@keyframes changeText {
+  0% { content: "Temukan Kemudahan Perjalanan Bersama Kami"; }
+  25% { content: "Temukan Kendaraan yang Tepat untuk Anda"; }
+  
+}
+
+#changingText::before {
+  content: "Temukan Kemudahan Perjalanan";
+  animation: changeText 10s linear infinite;
+}
